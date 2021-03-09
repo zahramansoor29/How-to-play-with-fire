@@ -249,6 +249,7 @@ p.resources{
 	top: 530pt;
 	left: 50pt;
 	width: 80vw;
+	z-index: 10;
 }
 
 p.donateheading{
@@ -268,6 +269,7 @@ p.donate{
 	top: 680pt;
 	left: 50pt;
 	width: 80vw;
+	z-index: 10;
 }
 
 a {
