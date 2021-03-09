@@ -1,0 +1,279 @@
+*{
+	padding: 0;
+	margin: 0;
+	cursor: url("../pics/cursor3.png"), auto;
+}
+
+/*bottom text credits*/
+
+section.bottom{
+	position: absolute;
+	top: 1050px;
+	z-index: 10;
+	color: white;
+	font-size: 15pt;
+	left: 50vw;
+	background-color: transparent;
+}
+
+/* title font */
+
+@font-face{
+	font-family: 'titlefont';
+	src: url('../fonts/titlefont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* text stylisation on race pages */
+
+@font-face{
+	font-family: 'Minecraft';
+	src: url('../fonts/Minecraft.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	font-family: "Minecraft", sans-serif;
+}
+
+
+li{
+	color: white;
+	background-color: black;
+	font-size: 30pt;
+	font-style: normal;
+	padding: 5px;
+}
+
+section.content{
+	color: white;
+	position: absolute;
+	z-index:1;
+	margin-top: 60px;
+	margin-left: 30px;
+}
+
+/* positioning all backgrounds and images */
+
+img{
+	position:absolute;
+}
+
+.background {
+	z-index: -1;
+	width:100vw;
+	pointer-events: none;
+
+/* customising selection and home pages' backgrounds*/
+
+}
+
+#background1{
+	z-index:-1;
+	width:100vw;
+}
+
+#background2{
+	z-index:20px;
+	width:100vw;
+}
+
+/* stylising the selection page buttons */
+
+#button{
+	z-index:10px;
+	top: 749px;
+	left: 118px;
+}
+
+#muslim{
+	z-index:10px;
+	top: 557px;
+	left: 135px;
+	width: 22vw;
+
+}
+
+#black{
+	z-index:10px;
+	top: 657px;
+	left: 135px;
+	width: 22vw
+}
+
+#asian{
+	z-index:10px;
+	top: 757px;
+	left: 135px;
+	width: 22vw
+}
+
+#white{
+	z-index:10px;
+	top: 857px;
+	left: 135px;
+	width: 22vw
+}
+
+/* customising backgrounds for race pages */
+
+#colorbackground{
+	z-index:20px;
+	width:100vw;
+	right: -0.5px;
+}
+
+/* water bucket animation */
+
+.bucket, .water{
+	width: 220px;
+	right: 0px;
+	top: 4px;
+
+}
+
+.water{
+	z-index: 3;
+}
+
+.bucket{
+	z-index: 4;
+	transition-duration: 500ms;
+	transition-timing-function: ease-in;
+}
+
+.bucket:hover{
+	transform: rotate(-20deg);
+}
+
+/* put it out! */
+
+section.putitout{
+	color: black;
+	position: absolute;
+	z-index:5;
+	margin-top: 265px;
+	right: 69px;
+	font-size: 19pt;
+	background-color: lemonchiffon;
+	padding: 2px;
+	padding-top: 8px;
+	padding-left: 5px;
+
+}
+
+/* resource page: play again button */
+
+.playagain{
+	right: 0px;
+	width: 300px;
+}
+
+section.playagaintext{
+	color: white;
+	position: absolute;
+	z-index:5;
+	margin-top: 130px;
+	right: 15px;
+	font-family: titlefont;
+	font-size: 21pt;
+	background-color: transparent;
+	padding: 3px;
+	padding-top: 13px;
+	padding-left: 6px;
+}
+
+
+/* resource page: title*/
+
+section.titleresources1{
+	color: black;
+	position: absolute;
+	z-index:5;
+	margin-top: 106pt;
+	left: 220pt;
+	font-family: titlefont, sans-serif;
+	font-size: 40pt;
+	background-color: transparent;
+}
+
+section.titleresources2{
+	color: black;
+	position: absolute;
+	z-index:5;
+	margin-top: 150pt;
+	left: 185pt;
+	font-family: titlefont, sans-serif;
+	font-size: 40pt;
+	background-color: transparent;
+}
+
+/* resource page intro */
+
+p.introheading{
+	color: mediumturquoise;
+	font-family: Minecraft, sans-serif;
+	font-size: 30pt;
+	position: absolute;
+	top: 280pt;
+	left: 50pt;
+}
+
+p.introbody{
+	color: white;
+	font-family: Minecraft, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	top: 330pt;
+	left: 50pt;
+	width: 80vw;
+}
+
+p.resourcesheading{
+	color: mediumturquoise;
+	font-family: Minecraft, sans-serif;
+	font-size: 30pt;
+	position: absolute;
+	top: 480pt;
+	left: 50pt;
+}
+
+p.resources{
+	color: white;
+	font-family: Minecraft, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	top: 530pt;
+	left: 50pt;
+	width: 80vw;
+}
+
+p.donateheading{
+	color: mediumturquoise;
+	font-family: Minecraft, sans-serif;
+	font-size: 30pt;
+	position: absolute;
+	top: 630pt;
+	left: 50pt;
+}
+
+p.donate{
+	color: white;
+	font-family: Minecraft, sans-serif;
+	font-size: 20pt;
+	position: absolute;
+	top: 680pt;
+	left: 50pt;
+	width: 80vw;
+}
+
+a {
+  color: orange;
+}
+
+body.resources{
+	background-color: black;
+}
